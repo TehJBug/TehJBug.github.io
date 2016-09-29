@@ -1,0 +1,13 @@
+#title-name {	
+}
+
+
+//float the picture to the right and give it a margin and border
+#picture-profile{
+	float: right;
+	margin: 10px 10px 10px 10px;
+	border-style: solid;
+	border-color: white;
+}
+
+
