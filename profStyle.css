@@ -1,16 +1,45 @@
-#title-name {
+#bodyContainer
+{
+	width: 800px;
+	margin: 40px;
+	auto: 60px;
 
+}
+
+dt {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
+	padding: 0 26px 0 0;
+	width: 150px;
+	float: left;
+	height: 100px;
+	border-right: 1px solid #999;
+}
+
+dd {
+	width: 600px;
+	float: right;
+}
+
+dd.clear {
+	float: none;
+	margin: 0;
+	height: 15px;
 }
 
 .italic {
 	font-style: italic;
 }
 
+.clear { clear: both; }
+
 .Profilelabel {
 	display: inline-block;
 	position: relative;
 	top: -60px;
-
+	padding-right: 20px;
 }
 
 .sans-serif {
@@ -18,20 +47,19 @@
 }
 
 .vertical-line{
+	padding-left: 20px;
 	display: inline-block;
 	border-left: 2px solid #000000;
-
 }
 
 #PersonalParagraph {
-	width: 600px;
-	word-wrap: break-word;
+	width:500px;
 }
 
 
 #picture-profile{
 	/*box-shadow: 3px 3px 3px 3px grey ;*/
-	 box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 30px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 30px 0 rgba(0, 0, 0, 0.19);
 	float: right;
 	position:relative;
 	top: -80px;
