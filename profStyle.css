@@ -4,6 +4,24 @@
 	padding: 0px;
 }
 
+h1 {
+	margin: 0px 0px 15px 0px;
+}
+
+/*Need to add space to paragraph bottom margin*/
+p{
+	margin: 0px 0px 15px 0px;
+}
+
+ul {
+	margin: 10px 0px 30px 15px;
+}
+
+/*Spacing between li elements...margin or padding??*/
+li{
+	margin: 0px 0px 5px 0px;
+}
+
 dt {
 	font-style: italic;
 	font-weight: bold;
@@ -27,22 +45,7 @@ dd.break {
 	height: 15px;
 }
 
-.italic {
-	font-style: italic;
-}
-
 .break { clear: both; }
-
-.Profilelabel {
-	display: inline-block;
-	position: relative;
-	top: -60px;
-	padding-right: 20px;
-}
-
-.sans-serif {
-	font-family:sans-serif;
-}
 
 .vertical-line{
 	padding-left: 20px;
@@ -50,27 +53,28 @@ dd.break {
 	border-left: 2px solid #000000;
 }
 
-#PersonalParagraph {
-	width:500px;
-}
-
-
 #picture-profile{
 	/*box-shadow: 3px 3px 3px 3px grey ;*/
 	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 30px 0 rgba(0, 0, 0, 0.19);
 	float: right;
 	position:relative;
+	margin: -30px 0px 0px
 	top:-5px;
 	right: 30px;
 	border: thick solid white;
-    	-ms-transform: rotate(7deg); /* IE 9 */
-    	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    	transform: rotate(-7deg);
+    	-ms-transform: rotate(-6deg); /* IE 9 */
+    	-webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
+    	transform: rotate(-6deg);
 }
 
-
-
-
+/*shrink span element*/
+span {
+	font-style: italic;
+	font-family: Georgia, Serif;
+	font-size: 16px;
+	color: grey;
+	font-weight: normal;
+}
 
 /*
 Second main
@@ -82,16 +86,13 @@ Second main
 	}
 
 	#container {
-		width: 700px;
+		width: 800px;
 		margin: 30px;
 		auto: 55px;
 	}
-
-	#careerObjectives {
+  #careerObjectives {
 		width: 500px;
 		float: left;
+		font-style: italic;
+		color: grey;
 	}
-
-p {
-			margin: 0 0 16px 0;
-		}
