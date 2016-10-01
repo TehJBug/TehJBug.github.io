@@ -1,3 +1,9 @@
+/*Shrink's things*/
+* {
+	margin:0px;
+	padding: 0px;
+}
+
 dt {
 	font-style: italic;
 	font-weight: bold;
@@ -15,7 +21,7 @@ dd {
 	float: right;
 }
 
-dd.clear {
+dd.break {
 	float: none;
 	margin: 0;
 	height: 15px;
@@ -25,7 +31,7 @@ dd.clear {
 	font-style: italic;
 }
 
-.clear { clear: both; }
+.break { clear: both; }
 
 .Profilelabel {
 	display: inline-block;
@@ -54,9 +60,8 @@ dd.clear {
 	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 30px 0 rgba(0, 0, 0, 0.19);
 	float: right;
 	position:relative;
-	top: -80px;
+	top:-5px;
 	right: 30px;
-	margin:10px 10px 10px 10px;
 	border: thick solid white;
     	-ms-transform: rotate(7deg); /* IE 9 */
     	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
@@ -75,3 +80,18 @@ Second main
 	font: 16px Helvetica;
 	line-height: 20px;
 	}
+
+	#container {
+		width: 700px;
+		margin: 30px;
+		auto: 55px;
+	}
+
+	#careerObjectives {
+		width: 500px;
+		float: left;
+	}
+
+p {
+			margin: 0 0 16px 0;
+		}
